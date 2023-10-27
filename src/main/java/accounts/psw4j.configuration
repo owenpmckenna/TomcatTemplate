@@ -1,0 +1,10 @@
+global.random.strong=false
+
+global.pepper=PlK6HUCHAqsyFCxJ8yeHsX7mPaMHUnkwjaWUEsgCISyMILyCyNE6UVStPU8fFYf7Q5gVxEYfG2JgciNAOfFb2TWd768AQN8Ro-u0LXO0cIwCMDM44homF3KKthVtCbCayQ
+
+hash.argon2.memory=4096
+hash.argon2.iterations=75
+hash.argon2.length=512
+hash.argon2.parallelism=1
+hash.argon2.type=id
+hash.argon2.version=19

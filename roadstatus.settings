@@ -1,0 +1,24 @@
+WEBAPP_SITE=smroads.com
+WEBAPP_PLAUSIBLEDOMAIN=smroads.com
+WEBAPP_MAINTITLE=SMRoads
+WEBAPP_ABOUTEMAIL=owenpmckenna@outlook.com
+WEBAPP_ABOUTTEXT=We are an independent and local Signal Mountain site that includes forums and can be used to quickly find out if Roberts Mill, The W Road, and Signal Mountain Blvd are open as an alternative to Facebook.
+WEBAPP_EMAIL=owenpmckenna@outlook.com
+WEBAPP_EMAILPASS=null-replace
+WEBAPP_PHONE=+14232906477
+WEBAPP_FORUMMODEMAILS=owenpmckenna@outlook.com
+WEBAPP_ROADSCONFIRMEMAILS=owenpmckenna@outlook.com
+WEBAPP_METADISCRIPTION=An independent and local Signal Mountain site that includes forums and can be used to quickly find out if Roberts Mill, The W Road, and Signal Mountain Blvd are open as an alternative to Facebook.
+WEBAPP_SUBLIMECODE=RPD4ovXGda_MaA
+WEBAPP_POSTACTIONDELAY=30000
+
+WEBAPP_FIRSTRUN=false
+WEBAPP_MARIADBWAIT=10000
+WEBAPP_ADMINNAME=Admin
+WEBAPP_ADMINEMAIL=owenpmckenna@outlook.com
+WEBAPP_ADMINPASS=null-replace
+WEBAPP_ROADS=Roberts Mill|The W Road|Signal Mountain Blvd
+
+TWILIO_ACCOUNT_SID=null-replace
+TWILIO_AUTH_TOKEN=null-replace
+TWILIO_SERVICE_TOKEN=null-replace

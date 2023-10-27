@@ -1,0 +1,36 @@
+version: '2'
+
+networks:
+  centralnet:
+    driver: bridge
+
+services:
+  tomcat:
+    container_name: tomcat
+    build:
+      context: .
+      dockerfile: roadstatus.dockerfile
+    ports:
+      - "80:8080"
+      - "443:8443"
+    env_file: roadstatus.settings
+    networks:
+      - centralnet
+    environment:
+      - WEBAPP_PROPERTIES="/usr/local/tomcat/webappsettings/"
+    volumes:
+      - "../logs:/usr/local/tomcat/logs"
+      - "../webappsettings/:/usr/local/tomcat/webappsettings/"
+    depends_on:
+      - mariadb
+  mariadb:
+    container_name: mariadb
+    image: mariadb:10.7.8
+    restart: 'always'
+    ports:
+      - "3306:3306"
+    volumes: 
+      - "../mariadb:/var/lib/mysql"
+    networks:
+      - centralnet
+    env_file: mariadb.settings

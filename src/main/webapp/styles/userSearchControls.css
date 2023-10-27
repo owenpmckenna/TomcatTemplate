@@ -1,0 +1,34 @@
+.query {
+	cursor: text;
+	padding: 6px 10px;
+}
+.search {
+	padding: 10px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+.submit {
+	background-color: #04AA6D;
+	color: white;
+	padding: 6px 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.results {
+	padding: 10px;
+	background-color: #f2f2f2;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+.result {
+	margin-left: 5px;
+	white-space: nowrap;/* This is really only for the userSearchResult stuff, so we will see how it affects */
+}
+.resultHelper {
+	white-space: nowrap;
+}
+#srt {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

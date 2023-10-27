@@ -1,0 +1,49 @@
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+a {
+	text-decoration: none;
+    color:black;
+}
+.sublime_embed {
+    width: 25%;
+    float: right;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+#endOfFile {
+    padding: 18px;
+}
+#banner {
+  width: 100%;
+  height: auto;
+  background-color: #b54a4a8e;
+  position: fixed;
+  top: 0;
+}
+.bannerItem {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+#bannerOffset {
+  height: 13vh;
+}

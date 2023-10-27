@@ -1,0 +1,23 @@
+<Context path="" reloadable="true"><!-- docbase / is a vulnerability -->
+
+<CookieProcessor className="org.apache.tomcat.util.http.Rfc6265CookieProcessor"
+                   sameSiteCookies="strict" />
+<Resource name="jdbc/db0"
+auth="Container"
+type="javax.sql.DataSource"
+username="root"
+password="!D4x08KEUvMWtOhKXiGF7WNe2H7EaMG2J8LaIJ!"
+driverClassName="org.mariadb.jdbc.Driver"
+url="jdbc:mariadb://mariadb:3306/db"
+initialSize="25"
+maxTotal="100"
+maxIdle="99"
+minIdle="10"
+maxAge="7200000"
+timeBetweenEvictionRunsMillis="34000"
+minEvictableIdleTimeMillis="55000"
+validationQuery="SELECT 1"
+testOnBorrow="true"
+removeAbandoned="true"
+removeAbandonedTimeout="55"/>
+</Context>
